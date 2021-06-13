@@ -352,16 +352,14 @@ class PackageInfo extends Component {
                                                 right: 0,
                                                 bottom: 0,
                                                 backgroundColor: 'rgba(255, 255, 255, 0.2)',
-
-
                                             },
                                             content: {
                                                 position: 'absolute',
-                                                top: '80px',
+                                                top: '70px',
                                                 left: '540px',
-                                                right: '540px',
-                                                bottom: '100px',
-                                                border: '4px solid #ccc',
+                                                right: '500px',
+                                                bottom: '70px',
+                                                border: '1px solid #ccc',
                                                 background: '#fff',
                                                 overflow: 'auto',
                                                 borderRadius: '30px',
@@ -370,11 +368,11 @@ class PackageInfo extends Component {
                                             }
                                         }}
                                     >
-                                        <GiCancel style={{ marginLeft: 520 }} size={30} onClick={() => this.setState({ showModal: false })} />
-                                        <form style={{ marginBottom: 100, marginLeft: 50 }}>
+                                        <GiCancel style={{ marginLeft: 390 }} size={30} onClick={() => this.setState({ showModal: false })} />
+                                        <form style={{ marginBottom: -10, marginLeft: 10, marginTop: -60, marginRight: 10}}>
                                             <br />
                                             <br />
-                                            <h2 style={{ color: 'black', marginTop: 15, marginLeft:'10px' }}>Update Course Details</h2>
+                                            <h2 style={{ color: 'black', marginTop: 15, marginLeft:'30px' }}>Update Course Details</h2>
                                             <br />
                                             
                                             <div style={{marginLeft:30, marginTop: 20}}>
@@ -409,11 +407,10 @@ class PackageInfo extends Component {
                                             </div>
                                             </div>
                                             <div className="form-row">
-                                                <div className="col-md-4 mb-3" style={{paddingTop: 10, marginLeft: 100}}>
+                                                <div className="col-md-4 mb-3" style={{paddingTop: 10, marginLeft: 150}}>
                                                     <button onClick={() => this.updateCoursedetails(this.state.currentPkgID)} className="btn btn-primary" type="submit" >Update</button>
                                                 </div>
                                             </div>
-
 
                                         </form>
                                         
@@ -433,7 +430,7 @@ class PackageInfo extends Component {
                                         </MDBCard>
                                     </MDBCol>
                                     </td>
-                                    <td style={{ paddingLeft: 100, paddingRight:'-300',marginTop: 10 }}> <MdLanguage size={30} /> {pkg.description} <br /><br /><SiCodefactor size={20} /> {pkg.category} <br /><br /><CgCalendarDates size={30} />  {pkg.duration} Months
+                                    <td style={{ paddingLeft: 100, paddingRight:'-300',marginTop: 10 }}> <MdLanguage size={30} /> {pkg.description} <br /><br /><SiCodefactor size={30} /> {pkg.category} <br /><br /><CgCalendarDates size={30} />  {pkg.duration} Months
                                         <br /><br /> <h3>Description</h3> <br /> <h5 style={{fontSize:15}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h5> </td>
                                         
                                     <td style={{ paddingLeft: 100 }}> <button type="button" className="btn btn-secondary" onClick={() => {

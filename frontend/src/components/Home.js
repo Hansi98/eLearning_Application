@@ -54,7 +54,7 @@ function Home() {
                         <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                     </div>
                     <div className="card-footer">
-                        <Link to="/addTravelPackage"><button type="button" className="btn btn-dark">View more</button></Link>
+                        <Link to="/PackageInfo"><button type="button" className="btn btn-dark">View more</button></Link>
                     </div>
                 </div>
                 <div className="card shadow-lg p-1 mb-5 bg-white rounded" style={{ height: 520 }}>
@@ -74,14 +74,13 @@ function Home() {
                         <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                     </div>
                     <div className="card-footer">
-                        <a href="https://www.etihad.com/en-lk/"><button type="button" className="btn btn-dark">View more</button></a>
+                        <a href="/PackageInfo"><button type="button" className="btn btn-dark">View more</button></a>
                     </div>
                 </div>
             </div>
             <br />
             <br />
-            <br />
-            
+            <br />   
         </div>
         
     )
