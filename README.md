@@ -1,2 +1,2 @@
 # eLearning_Application
-Simple MERN Application with basic CRUD operators
+MERN Application with basic CRUD operators
